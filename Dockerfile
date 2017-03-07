@@ -8,3 +8,4 @@ RUN chmod +r /var/www/html/index.html
 CMD /bin/bash -c "/usr/sbin/httpd -DFOREGROUND"
 EXPOSE 80
 ENV MYNAME=RAGHU
+ENV PORT=80
